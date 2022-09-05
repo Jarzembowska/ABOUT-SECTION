@@ -161,7 +161,8 @@ screen and (min-resolution: 3dppx) {
 
 @media screen and (min-width:768px) {
   .about__subtitle {
-    font-size: 26px;
+
+    font-size: 25px;
     line-height: 1.154;
     padding-top: 130px;
   }
@@ -185,6 +186,10 @@ screen and (min-resolution: 3dppx) {
     flex-basis: calc((100% / 2) - 17px);
   }
 
+  .about__logo {
+    padding-top: 0px;
+  }
+
   .about__logo-img {
     min-width: 340px;
     width: 100%;
@@ -197,28 +202,32 @@ screen and (min-resolution: 3dppx) {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    padding-top: 100px;
   }
 
   .div-item__desc-1 {
     font-size: 14px;
     line-height: 1.76;
-    padding-bottom: 20px;
-    margin-right: 16px;
+    letter-spacing: 0.04em;
+    padding-bottom: 30px;
+    margin-right: 12px;
     margin-left: 0px;
   }
 
   .div-item__desc-2 {
     font-size: 14px;
     line-height: 1.76;
-    padding-bottom: 25px;
-    margin-right: 16px;
+    letter-spacing: 0.04em;
+    padding-bottom: 12px;
+    margin-right: 14px;
     margin-left: 0px;
   }
 
   .div-item__desc-3 {
     font-size: 14px;
     line-height: 1.76;
-    padding-bottom: 45px;
+    letter-spacing: 0.04em;
+    padding-bottom: 55px;
     margin-right: 16px;
     margin-left: 0px;
 
@@ -226,7 +235,7 @@ screen and (min-resolution: 3dppx) {
 
   .div-item__btn {
     margin-left: 0px;
-    padding: 18px 0px 18px 38px;
+    padding: 18px 0px 18px 37px;
     font-size: 16px;
   }
 }
