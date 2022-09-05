@@ -159,9 +159,8 @@ screen and (min-resolution: 3dppx) {
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
   .about__subtitle {
-
     font-size: 25px;
     line-height: 1.154;
     padding-top: 130px;
@@ -244,7 +243,7 @@ screen and (min-resolution: 3dppx) {
   .about {
     background-image: url(../images/about-desctopsectionbg.png);
     background-repeat: no-repeat;
-    background-position: right 50% bottom -55px;
+    background-position: right 50% bottom -65px;
     background-size: 100%;
   }
 
@@ -253,7 +252,7 @@ screen and (min-resolution: 3dppx) {
   screen and (min-resolution: 2dppx) {
     .about {
       background-image: url(../images/about-desctopsectionbgx2.png);
-      background-position: right 50% bottom -55px;
+      background-position: right 50% bottom -65px;
     }
   }
 
@@ -262,7 +261,7 @@ screen and (min-resolution: 3dppx) {
   screen and (min-resolution: 3dppx) {
     .about {
       background-image: url(../images/about-desctopsectionbgx3.png);
-      background-position: right 50% bottom -55px;
+      background-position: right 50% bottom -65px;
     }
   }
 
