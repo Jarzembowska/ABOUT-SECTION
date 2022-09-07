@@ -177,6 +177,10 @@ p {
     flex-direction: column;
     padding-top: 100px;
   }
+  .about__div-item {
+    display: inline-block;
+    flex-direction: column;
+  }
   .div-item__desc-1 {
     font-size: 14px;
     line-height: 1.76;
